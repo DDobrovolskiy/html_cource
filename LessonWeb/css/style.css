@@ -1,28 +1,43 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;  /*Шрифт*/
-    font-size: 15px;                            /*Размер*/
-    color: black;                             /*Цвет*/
-    line-height: 1.1;                           /*Множитель межстрочного интервала*/
+.table {
+    width: 100%;
+    border: 1px rgb(179, 181, 184) solid;
+    border-collapse: collapse;
+    table-layout: fixed;
 }
-p {
-    text-indent: 20px;            /*Абзац?*/
-    color: rgb(182, 58, 58);    /*Цвет*/
+.table th {
+    padding: 10px 5px;
+    text-align: left;
+    border: 1px rgb(179, 181, 184) solid;
 }
-ul {
-    list-style-type: square;        /*Значки*/
-    list-style-position: inside;    /*Позиция*/
+.table td {
+    padding: 5px;
+    border: 1px rgb(179, 181, 184) solid;
 }
-ol {
-    list-style-type: upper-roman;   /*Нумерация*/
-    list-style-position: outside;   /*Позиция*/
+.table tfoot td {
+    text-align: right;
 }
-.title {
-    text-align: center;             /*Выравнивание*/
-    letter-spacing: -2px;           /*Межбуквенное*/
+.text_test {
+    color: brown;
+    margin: 10px;
+    font-weight: bold;
 }
-.justify {
-    text-align: justify;            /*Заполнение текста*/
-    font-weight: bold;              /*Жирный*/
-    font-style: italic;             /*Курсив*/
-    text-transform: uppercase;      /*Заглавные*/
+.content {
+    margin-bottom: 50px;
+}
+.post {
+    width: 700px;
+    height: 400px;
+    padding: 15px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+    background-image: url("../img/1.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gradient {
+    width: 200px;
+    height: 600px;
+    background-color: aliceblue;
+    background-image: linear-gradient(to bottom, grey, white);
 }

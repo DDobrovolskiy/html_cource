@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;  /*Шрифт*/
+    font-size: 15px;                            /*Размер*/
+    color: black;                             /*Цвет*/
+    line-height: 1.1;                           /*Множитель межстрочного интервала*/
+}
+p {
+    text-indent: 20px;            /*Абзац?*/
+    color: rgb(182, 58, 58);    /*Цвет*/
+}
+ul {
+    list-style-type: square;        /*Значки*/
+    list-style-position: inside;    /*Позиция*/
+}
+ol {
+    list-style-type: upper-roman;   /*Нумерация*/
+    list-style-position: outside;   /*Позиция*/
+}
+.title {
+    text-align: center;             /*Выравнивание*/
+    letter-spacing: -2px;           /*Межбуквенное*/
+}
+.justify {
+    text-align: justify;            /*Заполнение текста*/
+    font-weight: bold;              /*Жирный*/
+    font-style: italic;             /*Курсив*/
+    text-transform: uppercase;      /*Заглавные*/
+}
